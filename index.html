@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Insurance Site</title>
+  </head>
+  <body>
+    <nav class="nav--primary">
+      <div class="nav--logo">
+        <i class="fas fa-shield-alt" style="margin-right: 5px"></i>
+        <span style="font-size: 12px">Protect You</span>
+      </div>
+      <div class="nav--menu">
+        <div class="menu--menu_item">
+          <div class="menu--menu_item--login"><a href="">Log in</a></div>
+          <div class="menu--icon_container">
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-linkedIn"></i></span>
+          </div>
+        </div>
+      </div>
+      <i id="hamburger" class="fas fa-hamburger"></i>
+    </nav>
+    <div class="hero">
+      <nav class="nav--sub">
+        <div class="sub-nav--menu_item">Home</div>
+        <div class="sub-nav--menu_item">Insurance</div>
+        <div class="sub-nav--menu_item">Membership</div>
+        <div class="sub-nav--menu_item">Make Payment</div>
+        <div class="sub-nav--menu_item">Find an Agent</div>
+      </nav>
+      <div class="nav--mobile">
+        <div class="nav--close"><i class="far fa-times-circle"></i></div>
+        <div class="sub-nav--mobile--menu_item">Home</div>
+        <div class="sub-nav--mobile--menu_item">Insurance</div>
+        <div class="sub-nav--mobile--menu_item">Membership</div>
+        <div class="sub-nav--mobile--menu_item">Make Payment</div>
+        <div class="sub-nav--mobile--menu_item">Find an Agent</div>
+      </div>
+      <div class="nav--contact_us">
+        <i class="fas fa-phone fa-2x"></i>
+        <div class="nav--contact_info">
+          <div class="nav-contact_info--available">24/7 available</div>
+          <div class="nav-contact_info--number">(782)713-5678</div>
+        </div>
+      </div>
+      <div class="hero--text">Insurance made simple for you</div>
+    </div>
+    <div class="email--capture">
+      <div class="email--header">
+        <h1>Which Insurance are you looking for?</h1>
+        <p>Receive a quote within 24 hours.</p>
+      </div>
+      <div class="email--form">
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter Your Email"
+            style="display: block"
+          />
+          <input type="number" placeholder="Zip Code" />
+          <select name="insurance" id="">
+            <option>Type</option>
+            <option value="Car">Auto</option>
+            <option value="Car">Renters</option>
+            <option value="Car">Home</option>
+            <option value="Car">Property</option>
+          </select>
+          <button>Get a Quote</button>
+        </form>
+      </div>
+    </div>
+    <section id="insurance__section">
+      <h1>Insurance for everyone</h1>
+      <div class="insurance__types">
+        <div class="insurance__box">
+          <div class="icon_background">
+            <i class="fas fa-home"></i>
+          </div>
+          <div class="insurance__box--title">Home Insurance</div>
+          <div class="insurance__box--subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem
+            aspernatur nam quibusdam reiciendis! Voluptate magni qui explicabo
+            ducimus aspernatur voluptatibus? Iste voluptate, mollitia dolores
+            libero quidem maxime nisi minima.
+          </div>
+          <div class="insurance__box--action">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+        <div class="insurance__box">
+          <div class="icon_background">
+            <i class="fas fa-hand-holding-heart"></i>
+          </div>
+          <div class="insurance__box--title">Life Insurance</div>
+          <div class="insurance__box--subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem
+            aspernatur nam quibusdam reiciendis! Voluptate magni qui explicabo
+            ducimus aspernatur voluptatibus? Iste voluptate, mollitia dolores
+            libero quidem maxime nisi minima.
+          </div>
+          <div class="insurance__box--action">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+        <div class="insurance__box">
+          <div class="icon_background">
+            <i class="fas fa-paw"></i>
+          </div>
+          <div class="insurance__box--title">Pet Insurance</div>
+          <div class="insurance__box--subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem
+            aspernatur nam quibusdam reiciendis! Voluptate magni qui explicabo
+            ducimus aspernatur voluptatibus? Iste voluptate, mollitia dolores
+            libero quidem maxime nisi minima.
+          </div>
+          <div class="insurance__box--action">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+        <div class="insurance__box">
+          <div class="icon_background">
+            <i class="fas fa-car"></i>
+          </div>
+          <div class="insurance__box--title">Auto Insurance</div>
+          <div class="insurance__box--subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem
+            aspernatur nam quibusdam reiciendis! Voluptate magni qui explicabo
+            ducimus aspernatur voluptatibus? Iste voluptate, mollitia dolores
+            libero quidem maxime nisi minima.
+          </div>
+          <div class="insurance__box--action">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+        <div class="insurance__box">
+          <div class="icon_background">
+            <i class="fas fa-luggage-cart"></i>
+          </div>
+          <div class="insurance__box--title">Travel Insurance</div>
+          <div class="insurance__box--subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem
+            aspernatur nam quibusdam reiciendis! Voluptate magni qui explicabo
+            ducimus aspernatur voluptatibus? Iste voluptate, mollitia dolores
+            libero quidem maxime nisi minima.
+          </div>
+          <div class="insurance__box--action">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+        <div class="insurance__box">
+          <div class="icon_background">
+            <i class="fas fa-business-time"></i>
+          </div>
+          <div class="insurance__box--title">Business Insurance</div>
+          <div class="insurance__box--subtext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim autem
+            aspernatur nam quibusdam reiciendis! Voluptate magni qui explicabo
+            ducimus aspernatur voluptatibus? Iste voluptate, mollitia dolores
+            libero quidem maxime nisi minima.
+          </div>
+          <div class="insurance__box--action">
+            <a href="#">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="content-pitch">
+      <img class="image" src="./images/undraw_play_time_7k7b.svg" alt="" />
+      <div class="pitch">
+        <div class="pitch__title">Why Choose Protect You</div>
+        <div class="sub_title">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+          consectetur veritatis, vitae ad cumque facere perspiciatis beatae
+          excepturi repudiandae ipsa
+        </div>
+        <div class="pitch__checklist">
+          <div>
+            <i class="fas fa-check-circle"></i>
+            <span
+              >Voluptatum consectetur veritatis, vitae ad cumque facere
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-check-circle"></i>
+            <span
+              >Voluptatum consectetur veritatis, vitae ad cumque facere
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-check-circle"></i>
+            <span
+              >Voluptatum consectetur veritatis, vitae ad cumque facere
+            </span>
+          </div>
+          <div>
+            <i class="fas fa-check-circle"></i>
+            <span
+              >Voluptatum consectetur veritatis, vitae ad cumque facere
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq">
+      <h1>Frequently Asked Questions</h1>
+      <div class="faq__container">
+        <div class="accordion_group">
+          <button class="accordion">Home Insurance</button>
+          <div class="panel">
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion_group">
+          <button class="accordion">Life Insurance</button>
+          <div class="panel">
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion_group">
+          <button class="accordion">Pet Insurance</button>
+          <div class="panel">
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion_group">
+          <button class="accordion">Auto Insurance</button>
+          <div class="panel">
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion_group">
+          <button class="accordion">Travel Insurance</button>
+          <div class="panel">
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion_group">
+          <button class="accordion">Business Insurance</button>
+          <div class="panel">
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+            <div class="faq">
+              <h3>What are the common coverage under my age?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+                reprehenderit itaque vitae quasi tenetur consequatur facere
+                voluptatibus molestiae!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col">
+          <div class="title">
+            <i class="fas fa-shield-alt" style="margin-right: 5px"></i>
+            <span>Protect You</span>
+          </div>
+          <div class="info">
+            <div class="info-text">Lorem ipsum dolor sit elit.</div>
+            <div class="phone">920-202-1023</div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="title">
+            <span>Newsletter</span>
+          </div>
+          <div class="info">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+            <input class="newsletter" type="text" />
+            <span>
+              <button class="btn_subscribe">SUBSCRIBE</button>
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <div class="title">
+            <span>Links</span>
+          </div>
+          <div class="links">
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <span>Services</span>
+          </div>
+          <div class="links">
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <span>Support</span>
+          </div>
+          <div class="links">
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="title">
+            <span>About</span>
+          </div>
+          <div class="links">
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+            <div class="link">lorem yulski</div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="legal">
+        <div>Terms and conditions</div>
+        <div>Legal</div>
+        <div>Patents</div>
+      </div>
+
+      <div class="copyright">&copy; 2021 All Rights Reserved</div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
